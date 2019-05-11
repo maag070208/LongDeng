@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="opciones">
+        <item>mesa_1</item>
+        <item>mesa_2</item>
+        <item>mesa_3</item>
+        <item>mesa_4</item>
+        <item>mesa_5</item>
+    </string-array>
+</resources>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_portada"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="Datos" />
+        <item
+            android:id="@+id/nav_registrar"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="Ordenar" />
+    </group>
+
+    <item android:title="Pedidos">
+        <menu>
+            <item
+                android:id="@+id/nav_modificar"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Mesas" />
+            <item
+                android:id="@+id/nav_eliminar"
+                android:icon="@drawable/ic_menu_slideshow"
+                android:title="Modificar" />
+            <item
+                android:id="@+id/nav_inventario"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Eliminar" />
+        </menu>
+    </item>
+
+</menu>
